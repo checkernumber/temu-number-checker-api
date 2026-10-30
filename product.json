@@ -37,16 +37,19 @@
       "name": "Number Checker",
       "doc_slug": "temu-checker",
       "input_kind": "phone",
-      "min_numbers": 1000,
+      "min_numbers": 1,
       "max_numbers": 100000,
       "result_fields": [
         "number",
         "activated"
-      ]
+      ],
+      "product_id": 72,
+      "min_billable_numbers": 1000,
+      "available": true
     }
   ],
   "pricing_url": "https://checknumber.ai/pricing",
   "maintainer": "CheckNumber",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
